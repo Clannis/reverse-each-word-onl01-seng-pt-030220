@@ -18,11 +18,11 @@ require 'pry'
 
 def reverse_each_word(string)
   word_array = string.split(" ")
-  word_array.collect do |word|
+  word_array.collect do |word.reverse|
     # example 1
     word.reverse
     # example 2
-    #{}"#{word.reverse}"
+    #"#{word.reverse}"
     binding.pry
   end
   output = word_array.join(" ")
