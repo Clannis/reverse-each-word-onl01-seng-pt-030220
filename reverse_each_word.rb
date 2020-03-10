@@ -26,4 +26,4 @@ def reverse_each_word(string)
   puts word_array
 end
 
-#reverse_each_word("Hello there, and how are you?")
+reverse_each_word("Hello there, and how are you?")
