@@ -3,7 +3,7 @@ require 'pry'
 def reverse_each_word(string)
   output_array = []
   array = string.split(" ")
-  array.each do |word|
+  array.collect do |word|
     output_word = ""
     output_word_array = []
     char_array = word.split("")
