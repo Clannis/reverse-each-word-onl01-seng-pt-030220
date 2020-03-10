@@ -2,10 +2,10 @@ require 'pry'
 
 def reverse_each_word(string)
   output_array = []
-  output_word_array = []
   array = string.split(" ")
   array.each do |word|
     output_word = ""
+    output_word_array = []
     char_array = word.split("")
     char_array.each do |char|
       output_word_array.unshift(char)
