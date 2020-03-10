@@ -9,7 +9,7 @@ def reverse_each_word(string)
       output_array.unshift(char)
     end
   end
-
+  output_array.join
 end
 
 reverse_each_word("Hello there, and how are you?")
