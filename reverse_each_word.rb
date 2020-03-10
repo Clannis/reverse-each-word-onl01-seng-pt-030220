@@ -17,8 +17,8 @@ def reverse_each_word(string)
   puts output
   output
 end
-string = " helle there you"
-reverse_each_word(string)
+poop = " helle there you"
+reverse_each_word(poop)
 
 # def reverse_each_word(string)
 #   word_array = string.split(" ")
