@@ -15,14 +15,16 @@ require 'pry'
 #   end
 #   output_array.join(" ")
 # end
+string = "Hello!"
+puts string.reverse
 
 def reverse_each_word(string)
   word_array = string.split(" ")
   word_array.collect do |word|
     # example 1
-    #word.reverse
+    word.reverse
     # example 2
-    "#{word.reverse}"
+    #"#{word.reverse}"
     binding.pry
   end
   output = word_array.join(" ")
