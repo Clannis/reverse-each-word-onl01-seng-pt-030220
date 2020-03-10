@@ -22,7 +22,7 @@ require 'pry'
 
 def reverse_each_word(string)
   word_array = string.split(" ")
-  word_array.collect do |word|
+  output = word_array.collect do |word|
     # example 1
     #word.reverse
     # example 2
@@ -30,8 +30,8 @@ def reverse_each_word(string)
     #binding.pry
   end
   #puts word_array
-  output = word_array.join(" ")
-  output
+  output.join(" ")
+
 end
 
 reverse_each_word("Hello there, and how are you?")
