@@ -29,7 +29,7 @@ def reverse_each_word(string)
     "#{word.reverse}"
     #binding.pry
   end
-  puts word_array
+  #puts word_array
   output = word_array.join(" ")
   output
 end
