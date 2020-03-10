@@ -22,7 +22,7 @@ def reverse_each_word(string)
     word = word.reverse
     binding.pry
   end
-  word_array.join("")
+  word_array.join(" ")
 end
 
 reverse_each_word("Hello there, and how are you?")
