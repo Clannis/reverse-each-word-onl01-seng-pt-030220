@@ -16,7 +16,8 @@ require 'pry'
 #   output_array.join(" ")
 # end
 string = "Hello!"
-puts string.reverse
+string = string.reverse
+puts string
 
 def reverse_each_word(string)
   word_array = string.split(" ")
@@ -25,7 +26,7 @@ def reverse_each_word(string)
     word.reverse
     # example 2
     #"#{word.reverse}"
-    binding.pry
+    #binding.pry
   end
   output = word_array.join(" ")
   output
