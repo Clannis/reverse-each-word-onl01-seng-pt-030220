@@ -1,5 +1,3 @@
-require 'pry'
-
 # def reverse_each_word(string)
 #   output_array = []
 #   array = string.split(" ")
@@ -27,5 +25,3 @@ def reverse_each_word(string)
   end
   output.join(" ")
 end
-
-reverse_each_word("Hello there, and how are you?")
