@@ -17,22 +17,18 @@ require 'pry'
 # end
 
 def reverse_each_word(string)
-  output_array = []
-  array = string.split(" ")
-  array.collect do |word|
-    output_word = ""
-    output_word_array = []
+  word_array = string.split(" ")
+  word_array.collect do |word|
     char_array = word.split("")
-    char_array.each do |char|
-      output_word_array.unshift(char)
-
+    char_array.collect do |char|
+      reverse_char_array.unshift(char)
+      reverse_char_array.join
     end
-    output_word = output_word_array.join
-    output_array << (output_word)
-
+    reverse_word_array.unshift(reverse_char_array)
+    reverse_word_array.join
   end
-
-  output_array.join(" ")
+  reverse_array.unshift(reverse_word_array)
+  reverse_array.join(" ")
 end
 
 #reverse_each_word("Hello there, and how are you?")
