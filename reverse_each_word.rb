@@ -17,8 +17,8 @@ require 'pry'
 #   puts output
 #   output
 # end
-poop = " helle there you"
-reverse_each_word(poop)
+# poop = " helle there you"
+# reverse_each_word(poop)
 
 def reverse_each_word(string)
   word_array = string.split(" ")
