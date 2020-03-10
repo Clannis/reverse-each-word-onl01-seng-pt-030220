@@ -19,16 +19,9 @@ require 'pry'
 def reverse_each_word(string)
   word_array = string.split(" ")
   word_array.collect do |word|
-    char_array = word.split("")
-    char_array.collect do |char|
-      reverse_char_array.unshift(char)
-      reverse_char_array.join
-    end
-    reverse_word_array.unshift(reverse_char_array)
-    reverse_word_array.join
+    word.reverse
   end
-  reverse_array.unshift(reverse_word_array)
-  reverse_array.join(" ")
+  word_array.join("")
 end
 
 #reverse_each_word("Hello there, and how are you?")
