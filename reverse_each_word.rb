@@ -20,9 +20,9 @@ def reverse_each_word(string)
   word_array = string.split(" ")
   word_array.collect do |word|
     word = word.reverse
-    binding.pry
+    #binding.pry
   end
   word_array.join(" ")
 end
 
-reverse_each_word("Hello there, and how are you?")
+#reverse_each_word("Hello there, and how are you?")
