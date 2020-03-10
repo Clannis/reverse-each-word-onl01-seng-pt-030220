@@ -18,7 +18,7 @@ require 'pry'
 
 def reverse_each_word(string)
   word_array = string.split(" ")
-  word_array.collect do |word.reverse|
+  word_array.collect do |word|
     # example 1
     word.reverse
     # example 2
