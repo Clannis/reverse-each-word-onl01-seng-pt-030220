@@ -13,7 +13,9 @@ def reverse_each_word(string)
     output_word = output_word_array.join
     output_array << (output_word)
   end
-  output_array.join(" ")
+  output = output_array.join(" ")
+  puts output
+  output
 end
 
 # def reverse_each_word(string)
