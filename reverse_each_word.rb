@@ -19,12 +19,14 @@ require 'pry'
 def reverse_each_word(string)
   word_array = string.split(" ")
   word_array.collect do |word|
+    # example 1
     word.reverse
-    puts word.reverse
+    # example 2
+    #{}"#{word.reverse}"
+    binding.pry
   end
-  puts "#{word_array}"
   output = word_array.join(" ")
-  puts output
+  output
 end
 
 reverse_each_word("Hello there, and how are you?")
